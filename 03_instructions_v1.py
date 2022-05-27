@@ -10,7 +10,7 @@ def yes_no(question):
             response = "yes"
             return response
 
-        elif response == "no" or "n":
+        elif response == "no" or response == "n":
             response = "no"
             return response
 
